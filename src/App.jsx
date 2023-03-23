@@ -1,6 +1,6 @@
 import React from 'react'
 import './assets/style/App.scss'
-import Heropage from './components/Heropage'
+import Heropage from './pages/Heropage'
 
 
 const App = () => {

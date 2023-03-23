@@ -11,7 +11,7 @@ const Heropage = () => {
         height:100vh;
 
         .custom_container{
-            padding-bottom:0px;
+            padding:20px 20px 0 20px;
         }
 
         .hero_section{
@@ -21,7 +21,6 @@ const Heropage = () => {
             height: calc(100vh - 22px);
             align-items: center;
             justify-content: space-between;
-            padding-bottom:0px;
             padding-top:70px;
             .text_section{
                 h3{
@@ -92,7 +91,7 @@ const Heropage = () => {
             <div className='hero_section'>
                 <div className='text_section'>
                     <h3>Hi!</h3>
-                    <h1>I am Anil</h1>
+                    <h1>I'm Anil</h1>
                     <h1>Kapse</h1>
                     <p>MERN Stack Developer</p>
                     <button>Visit My Works</button>   
