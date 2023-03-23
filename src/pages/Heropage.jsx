@@ -101,7 +101,7 @@ const Heropage = () => {
             <div className='hero_section'>
                 <div className='text_section'>
                     <h3>Hi!</h3>
-                    <h1>I'm Anild</h1>
+                    <h1>I'm Anil</h1>
                     <h1>Kapse</h1>
                     <p>MERN Stack Developer</p>
                     <button onClick={()=>navigate('/kapsecode/portfolio')}>Visit My Works</button>   
