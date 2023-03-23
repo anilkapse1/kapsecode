@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.2s linear;
+
 }
 
 html{
@@ -18,4 +21,28 @@ img{
     max-width: 100%;
     object-fit: cover;
 }
+
+a{
+    color:inherit;
+}
+/* code start */
+
+h3{
+    font-size:2vw;
+    margin-bottom:10px;
+    font-family: 'Gudea', sans-serif;
+    font-weight:100;
+}
+h1{
+    font-size:3vw;
+    margin-bottom:10px;
+    font-family: 'Gudea', sans-serif;
+}
+p{
+    font-size:3vw;
+    margin-bottom:10px;
+    font-weight: 200;
+}
+
+
 

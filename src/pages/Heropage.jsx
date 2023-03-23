@@ -31,22 +31,8 @@ const Heropage = () => {
             align-items: center;
             justify-content: space-between;
             .text_section{
-                h3{
-                    font-size:2vw;
-                    margin-bottom:10px;
-                    font-family: 'Gudea', sans-serif;
-                    font-weight:100;
-                }
-                h1{
-                    font-size:3vw;
-                    margin-bottom:10px;
-                    font-family: 'Gudea', sans-serif;
-                }
                 p{
-                    font-size:3vw;
-                    margin-bottom:10px;
                     letter-spacing: 7px;
-                    font-weight: 200;
                 }
                 button{
                     border:none;
@@ -104,39 +90,40 @@ const Heropage = () => {
                     <h1>I'm Anil</h1>
                     <h1>Kapse</h1>
                     <p>MERN Stack Developer</p>
-                    <button onClick={()=>navigate('/kapsecode/portfolio')}>Visit My Works</button>   
+                    <button onClick={()=>navigate('/kapsecode/portfolio/react')}>Visit My Works</button>   
                 </div>
                 <div className='user_section'>
                     <div className='user_logo items'>
                         <img src={userlogo} alt="user logo"/>
                     </div>
                     <div className='user_details items'>
-                        <h2>who am I ?</h2>
-                        <Stack direction="row" alignItems="center" spacing={.5}>
+                        <h2>who am I ?
+                        <Stack direction="row" style={{display:'inline-block'} }alignItems="center" spacing={.5}>
                         <a href="https://www.linkedin.com/in/anil-kapse/" target="_blank">
-                            <IconButton aria-label="delete" size="large">
+                            <IconButton style={{color:'#695AA6'}} aria-label="delete" size="large">
                                 <LinkedInIcon/>
                             </IconButton>
                         </a>
                         <a href="https://github.com/anilkapse1" target="_blank">
-                            <IconButton aria-label="delete" size="large">
+                            <IconButton style={{color:'#695AA6'}}  aria-label="delete" size="large">
                                 <GitHubIcon/>
                             </IconButton>
                         </a>
 
                         <a href="https://codesandbox.io/u/anilkapse1" target="_blank">
-                            <IconButton aria-label="delete" size="large">
+                            <IconButton style={{color:'#695AA6'}}  aria-label="delete" size="large">
                                 <CodeIcon/>
                             </IconButton>
                         </a>
                         <a href="https://codepen.io/anilkapse1" target="_blank">
-                            <IconButton aria-label="delete" size="large">
+                            <IconButton style={{color:'#695AA6'}}  aria-label="delete" size="large">
                                 <JavascriptIcon/>
                             </IconButton>
                         </a>
 
                         
                         </Stack>
+                        </h2>
                         <p>A Senior UI Developer, My Job Is Essentially To Turn Designs/Business Idea Into Reality Via Code And Enable User To Interact With A Data In A Safe And User-Friendly Way.</p>    
                     </div>
                 </div>
