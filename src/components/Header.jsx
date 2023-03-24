@@ -33,12 +33,15 @@ const Header = () => {
                             box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
                             border:1px solid white;
                             border-radius:5px;
+                            color:${({theme})=>theme.colors.color1};
+
                         }
                         &.active{
-                            font-weight:500;
                             box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
                             border-radius:5px;
                             border:1px solid transparent;
+                            color:${({theme})=>theme.colors.color1};
+
                         }
 
                     }

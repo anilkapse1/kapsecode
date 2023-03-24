@@ -8,8 +8,7 @@ import plush from '../assets/images/plus.png'
 
 const Portfolio = () => {
     const Portfolio=styled.div`
-        border:1px solid red;
-        background: linear-gradient(184deg, rgba(170,174,205,1) 0%, rgba(255,255,255,1) 57%);
+        ${'' /* background: linear-gradient(184deg, rgba(170,174,205,1) 0%, rgba(255,255,255,1) 57%); */}
         min-height:100vh;
         position:relative;
         z-index:999;
