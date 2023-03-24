@@ -13,7 +13,7 @@ const Portfolio = () => {
         position:relative;
         z-index:999;
         &::after{
-            background: url(/kapsecode/src/assets/images/plus.png) right top / 50% repeat-y;
+            background: url(/src/assets/images/plus.png) right top / 50% repeat-y;
             content: "";
             position: absolute;
             width: 100%;
