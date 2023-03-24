@@ -6,8 +6,7 @@ const Certificationdisplay = ({id,img}) => {
     <>
         <span>{id}</span>
         <div className='certification_image'>
-        {/* <img src={`/kapsecode/src/assets/images/certification/${img}.png`} alt="mern"/> */}
-        <img src={mern} alt="mern"/>
+        <img src={img} alt={img}/>
         </div>
   </>
 
