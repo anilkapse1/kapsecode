@@ -8,7 +8,6 @@ import plus from '../assets/images/plus.png'
 
 const Portfolio = () => {
     const Portfolio=styled.div`
-        border:1px solid red;
         min-height:100vh;
         position:relative;
         z-index:999;

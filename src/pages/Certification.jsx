@@ -15,6 +15,20 @@ import reactessential from '../assets/images/certification/reactessential.png'
 const Certification = () => {
     const Certificationcontainer=styled.div`
         margin-top:20px;
+        h3{
+
+          span{
+            background-color: azure;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+          }
+        }
+
         .certification_section{
           display:flex;
           flex-direction:column;
@@ -32,6 +46,9 @@ const Certification = () => {
             background-color:${({theme})=>theme.colors.color1};
             color:${({theme})=>theme.colors.white};
           }
+          h3{
+            background-color: aliceblue;
+          }
           .certification_image{
             width:700px;
             img{
@@ -47,54 +64,64 @@ const Certification = () => {
   const data=[
     {
       id:1,
-      img:mern
+      img:mern,
+      title:'Full Stack Web Development Internship Program'
+
     },
     {
       id:2,
-      img:cssflex
+      img:cssflex,
+      title:'Advanced Responsive Layouts with CSS Flexbox'
     },
     {
       id:3,
-      img:htmlessential
+      img:htmlessential,
+      title:'HTML Essential Training'
     },
     {
       id:4,
-      img:javascript
+      img:javascript,
+      title:'JavaScript Best Practice for Code Formatting'
     },
     {
       id:5,
-      img:javascriptdom
+      img:javascriptdom,
+      title:'JavaScript Enhancing the DOM'
     },
     {
       id:6,
-      img:css
+      img:css,
+      title:'Interactive Animation with CSS and JavaScript'
     },
     {
       id:7,
-      img:react
+      img:react,
+      title:'Building Modern Project with React'
     },
     {
       id:8,
-      img:reactessential
+      img:reactessential,
+      title:'React.js Essential Training'
     }
 ]
 
   return (
     <Certificationcontainer>
-    <div className='certification_section'>
-    {
-      data.map((val,idx)=>{
-        return(
-          <Certificationdisplay
-            id={val.id}  
-            img={val.img}
-          />
+    <h3>I am happy to say that I have achieved a total <span>{data.length}</span> certification, and more to come </h3>
+      <div className='certification_section'>
+      {
+        data.map((val,idx)=>{
+          return(
+            <Certificationdisplay
+              key={idx}
+              {...val}
+            />
 
-        )
-      })
-    }
+          )
+        })
+      }
 
-    </div>
+      </div>
     </Certificationcontainer>
   )
 }

@@ -41,7 +41,8 @@ const Heropage = () => {
                     border-radius:10px;
                     background:#695AA6;
                     font-size:1vw;
-                    color:white;
+                    color:${({theme})=>theme.colors.white};
+                    letter-spacing: 2px;
                     &:hover{
                         cursor:pointer;
                     }
