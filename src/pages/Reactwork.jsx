@@ -1,116 +1,38 @@
 import { style } from '@mui/system'
 import React from 'react'
 import styled from 'styled-components'
-import react1 from '../assets/images/react/reactproject.jpg'
 import Card from '../components/Card'
-
-import reactproject from '../assets/images/react/reactproject.jpg'
-
+import '../assets/style/card.scss'
+import reactproject from '../project/reactprojectlist'
 
 
 const Reactwork = () => {
 
   const Reactcontainer=styled.div`
     margin-top:20px;
-    .project_list{
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        gap:30px;
-      .card{
-        flex:0 0 300px;
-        border:1px solid #e1e1e1;
-        border-radius:5px;
-        background-color: white;
-        .image_container{
-          width:60%;
-          margin:auto;
-          padding:10px;
-
-          img{
-
+    p{
+          font-size:2vw;
+          span{
+            background-color: azure;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
           }
         }
-        .text_container{
-          padding:10px;
-          border-top:1px solid #e1e1e1;
-          h4{
-            color:${({theme})=>theme.colors.color2};
-            font-size:1.2vw;
-            font-weight:500;
-            }
-            span{
-              font-size:.9vw;
-            }
-            h5{
-              color:${({theme})=>theme.colors.color2};
-              font-weight: 400;
-              text-transform: capitalize;
-              margin-top: 10px;
-            }
-        }
-      }
-    }
-  
   `
 
-  const data = [
-    {
-      id:1,
-      title:"make sure customers find you online",
-      hours:4,
-      by:"anil kapse",
-      path:"https://anilkapse1.github.io/kapsecode/",
-      img:reactproject
-    },
-    {
-      id:1,
-      title:"make sure customers find you online",
-      hours:4,
-      by:"anil kapse",
-      path:"https://anilkapse1.github.io/kapsecode/",
-      img:reactproject
-    },
-    {
-      id:1,
-      title:"make sure customers find you online",
-      hours:4,
-      by:"anil kapse",
-      path:"https://anilkapse1.github.io/kapsecode/",
-      img:reactproject
-    },
-    {
-      id:1,
-      title:"make sure customers find you online",
-      hours:4,
-      by:"anil kapse",
-      path:"https://anilkapse1.github.io/kapsecode/",
-      img:reactproject
-    },
-    {
-      id:1,
-      title:"make sure customers find you online",
-      hours:4,
-      by:"anil kapse",
-      path:"https://anilkapse1.github.io/kapsecode/",
-      img:reactproject
-    },
-    {
-      id:1,
-      title:"make sure customers find you online",
-      hours:4,
-      by:"anil kapse",
-      path:"https://anilkapse1.github.io/kapsecode/",
-      img:reactproject
-    }
-
-  ]
   return (
 
     <Reactcontainer>
+        <p>I am happy to say that I have done a total <span>{reactproject.length}</span> project, and more to come </p>
+
       <div className='project_list'>
         {
-          data.map((val,idx)=>{
+          reactproject.map((val,idx)=>{
             return(
               <Card
                 key={idx}

@@ -15,8 +15,8 @@ import reactessential from '../assets/images/certification/reactessential.png'
 const Certification = () => {
     const Certificationcontainer=styled.div`
         margin-top:20px;
-        h3{
-
+        p{
+          font-size:2vw;
           span{
             background-color: azure;
             width: 50px;
@@ -107,7 +107,7 @@ const Certification = () => {
 
   return (
     <Certificationcontainer>
-    <h3>I am happy to say that I have achieved a total <span>{data.length}</span> certification, and more to come </h3>
+    <p>I am happy to say that I have achieved a total <span>{data.length}</span> certification, and more to come </p>
       <div className='certification_section'>
       {
         data.map((val,idx)=>{
