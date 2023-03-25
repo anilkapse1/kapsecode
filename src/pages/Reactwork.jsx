@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Card from '../components/Card'
 import '../assets/style/card.scss'
-import reactproject from '../project/reactprojectlist'
+import reactproject from '../project/Reactprojectlist'
 
 
 const Reactwork = () => {
