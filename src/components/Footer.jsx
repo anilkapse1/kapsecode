@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 
 
@@ -23,8 +24,8 @@ const Footer = () => {
 
   return (
     <Footer>
-        <h1>Made with love by Ani Kapse</h1>
-        <p>Thank you for visit!</p>
+        <h1>Made with <FavoriteIcon/> by Ani Kapse</h1>
+        <p><i>Thank you for visit!</i></p>
 
     </Footer>
   )
