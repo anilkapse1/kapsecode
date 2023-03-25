@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import Header from '../components/Header'
 import Container from '../Container'
 import plus from '../assets/images/plus.png'
+import Footer from '../components/Footer'
+
 
 
 const Portfolio = () => {
@@ -37,6 +39,7 @@ const Portfolio = () => {
                 <Outlet/>
             </div>
         </Container>
+        <Footer/>
     </Portfolio>
   )
 }
