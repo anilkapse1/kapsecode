@@ -28,7 +28,6 @@ const Portfolio = () => {
             padding:30px 20px 50px 20px;
         }
         
-
     `
 
   return (

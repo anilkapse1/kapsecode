@@ -13,6 +13,9 @@ const Card = ({id,title,hours,by,path,img}) => {
                     <span>created by: {by}</span>
                     <h5>hours: {hours}</h5>
                 </div>
+                <div className='layer'>
+                    <h3>live</h3>
+                </div>
             </a>
         </div>
    

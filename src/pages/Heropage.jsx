@@ -9,14 +9,13 @@ import Stack from '@mui/material/Stack';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CodeIcon from '@mui/icons-material/Code';
 import JavascriptIcon from '@mui/icons-material/Javascript';
+import Typewriter from "typewriter-effect";
 
 
 
 const Heropage = () => {
 
     const Hero = styled.div`
-        background: rgb(170,174,205);
-        background: linear-gradient(184deg, rgba(170,174,205,1) 0%, rgba(255,255,255,1) 57%);
         height:100vh;
 
         .custom_container{
@@ -77,6 +76,38 @@ const Heropage = () => {
                 }
             }
         }
+
+
+        &:after{
+                content: "MERN";
+                position: fixed;
+                right: 0px;
+                top: 0px;
+                width: 100%;
+                bottom: 0px;
+                background-repeat: no-repeat;
+                z-index: -1;
+                transform:scale(1);
+                font-size:30vw;
+                color: rgb(0,0,0,.1);
+                animation: magic 5s ease-in-out infinite alternate-reverse both;
+                background: rgb(170,174,205);
+                background: linear-gradient(184deg, rgba(170,174,205,1) 0%, rgba(255,255,255,1) 57%);
+
+            }
+
+            @keyframes magic{
+                0%{
+                    transform:scale(1.1);
+                    font-size:50vw;
+                }
+                100%{
+                    transform:scale(1);
+                    font-size:30vw;
+                }
+            }
+
+
     `
     //style end
 
@@ -87,11 +118,25 @@ const Heropage = () => {
         <Container>
             <div className='hero_section'>
                 <div className='text_section'>
-                    <h3>Hi!</h3>
+                    <h3>Hi!
+                    </h3>
                     <h1>I'm Anil</h1>
                     <h1>Kapse</h1>
                     <p>MERN Stack Developer</p>
-                    <button onClick={()=>navigate('/kapsecode/portfolio/react')}>Visit My Works</button>   
+                    
+                    <button onClick={()=>navigate('/kapsecode/portfolio/react')}>
+                    
+                    <Typewriter options={{
+                            autoStart:true,
+                            loop:true,
+                            delay:80,
+                            strings:[
+                                "Visit My Works"
+                        ]
+                        }}/>
+
+                    
+                    </button>   
                 </div>
                 <div className='user_section'>
                     <div className='user_logo items'>
@@ -125,7 +170,9 @@ const Heropage = () => {
                         
                         </Stack>
                         </h2>
-                        <p>A Senior UI Developer, My Job Is Essentially To Turn Designs/Business Idea Into Reality Via Code And Enable User To Interact With A Data In A Safe And User-Friendly Way.</p>    
+                        <p>
+                            A Senior UI Developer, My Job Is Essentially To Turn Designs/Business Idea Into Reality Via Code And Enable User To Interact With A Data In A Safe And User-Friendly Way.
+                        </p>    
                     </div>
                 </div>
             </div>

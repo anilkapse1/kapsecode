@@ -48,7 +48,7 @@ const Footer = () => {
   return (
     <Footer>
         <h1>Made with <FavoriteIcon style={{color:"red"}}/> by Ani Kapse</h1>
-        <p><i>You can explore my example..</i></p>
+        <p><i>You can explore an example here...</i></p>
         <div className='learn_container'>
           <a href="https://codepen.io/anilkapse1" target="_blank"><img src={codepen} alt="codepen"/></a>
           <a href="https://codesandbox.io/u/anilkapse1" target="_blank"><img src={codesandbox} alt="codesandbox"/></a>
