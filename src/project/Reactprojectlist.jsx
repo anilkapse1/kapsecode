@@ -11,7 +11,7 @@ import chat from '../assets/images/react/chat.png'
 const reactproject = [
     {
       id:1,
-      title:"student portal, providing completed details of student by university",
+      title:"student portal, providing complete details of student by university.",
       hours:30,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/studentportfolio/",
@@ -19,8 +19,8 @@ const reactproject = [
     },
     {
       id:2,
-      title:"maxpro provide a complete information for finance, investment",
-      hours:25,
+      title:"maxpro provide a complete information for finance, investment.",
+      hours:48,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/maxpro/",
       img:maxpro
@@ -36,7 +36,7 @@ const reactproject = [
     {
       id:4,
       title:"Dynamic faq creation ",
-      hours:46,
+      hours:24,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/react-faq/",
       img:faq
@@ -44,7 +44,7 @@ const reactproject = [
     {
       id:5,
       title:"contact list library using redux",
-      hours:46,
+      hours:36,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/react-contactmanager/",
       img:contactlist
@@ -52,14 +52,14 @@ const reactproject = [
     {
       id:6,
       title:"keep note using contextApi",
-      hours:46,
+      hours:60,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/react-googlekeepnote/",
       img:keepnote
     },
     {
       id:7,
-      title:"product page where user can search and buy it",
+      title:"product page where user can search and buy  product item",
       hours:46,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/cuisine/jewelery",
@@ -67,7 +67,7 @@ const reactproject = [
     },
     {
       id:8,
-      title:"product page where user can search and buy it",
+      title:"restaurant page where user can search and buy food item",
       hours:46,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/react-foodmenu/",
@@ -75,8 +75,8 @@ const reactproject = [
     },
     {
       id:9,
-      title:"product page where user can search and buy it",
-      hours:46,
+      title:"online chatting app, clone of WhatsApp",
+      hours:60,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/react-chatApp/",
       img:chat

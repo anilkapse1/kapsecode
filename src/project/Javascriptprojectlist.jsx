@@ -9,15 +9,15 @@ import scoregame from '../assets/images/javascript/scoregame.png'
 const javascriptproject = [
     {
       id:1,
-      title:"student portal, providing completed details of student by university",
-      hours:30,
+      title:"Extract a word which is having a more than a 7 characters using Array and String method",
+      hours:36,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/js-fiindbigwords/",
       img:bigword
     },
     {
       id:2,
-      title:"maxpro provide a complete information for finance, investment",
+      title:"Calculator using a String and Array method",
       hours:25,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/js-calculator/",
@@ -25,23 +25,23 @@ const javascriptproject = [
     },
     {
       id:3,
-      title:"todo list to maintain a daily task ",
-      hours:46,
+      title:" Dynamic user control counter using JavaScript",
+      hours:5,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/js-counter/",
       img:counter
     },
     {
       id:4,
-      title:"Dynamic faq creation ",
-      hours:46,
+      title:"Moving an eye on mouse event",
+      hours:24,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/js-eyemovement/",
       img:eyemovement
     },
     {
       id:5,
-      title:"Dynamic faq creation ",
+      title:"Working music player",
       hours:46,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/js-musicplayer/",
@@ -49,8 +49,8 @@ const javascriptproject = [
     },
     {
       id:6,
-      title:"Dynamic faq creation ",
-      hours:46,
+      title:"score board using JavaScript",
+      hours:36,
       by:"anil kapse",
       path:"https://anilkapse1.github.io/js-scoregame/",
       img:scoregame
