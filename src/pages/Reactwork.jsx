@@ -9,7 +9,6 @@ import reactproject from '../project/Reactprojectlist'
 const Reactwork = () => {
 
   const Reactcontainer=styled.div`
-    margin-top:20px;
     p{
           font-size:2vw;
           span{

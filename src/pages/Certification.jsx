@@ -14,7 +14,6 @@ import reactessential from '../assets/images/certification/reactessential.png'
 
 const Certification = () => {
     const Certificationcontainer=styled.div`
-        margin-top:20px;
         p{
           font-size:2vw;
           span{

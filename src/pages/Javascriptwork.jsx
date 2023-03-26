@@ -8,7 +8,6 @@ import javascriptproject from '../project/Javascriptprojectlist'
 const Javascriptwork = () => {
 
     const Javacontainer=styled.div`
-    margin-top:20px;
     p{
           font-size:2vw;
           span{

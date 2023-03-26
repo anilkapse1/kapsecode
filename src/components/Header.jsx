@@ -10,6 +10,7 @@ import { IconButton } from '@mui/material'
 
 const Header = () => {
     const Menu=styled.header`
+    margin-bottom:40px;
 
     .header_title{
         display: flex;
