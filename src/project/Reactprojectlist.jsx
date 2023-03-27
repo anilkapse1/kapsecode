@@ -7,6 +7,7 @@ import keepnote from '../assets/images/react/keepnote.png'
 import productpage from '../assets/images/react/productpage.png'
 import foodmenu from '../assets/images/react/foodmenu.png'
 import chat from '../assets/images/react/chat.png'
+import memegenerator from '../assets/images/react/memegenerator.png'
 
 const reactproject = [
     {
@@ -80,6 +81,14 @@ const reactproject = [
       by:"anil kapse",
       path:"https://anilkapse1.github.io/react-chatApp/",
       img:chat
+    },
+    {
+      id:10,
+      title:"meme generator",
+      hours:24,
+      by:"anil kapse",
+      path:"https://anilkapse1.github.io/react-memegenerator/",
+      img:memegenerator
     }
 
   ]
