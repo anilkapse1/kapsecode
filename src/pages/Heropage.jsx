@@ -71,7 +71,11 @@ const Heropage = () => {
                     }
 
                     p{
-                        font-size:1vw;
+                        font-size: 1.2vw;
+                        background-color: rgb(217 210 235 / 40%);
+                        backdrop-filter: blur(5px);
+                        font-weight: 400;
+                        line-height: 2;
                     }
                 }
             }

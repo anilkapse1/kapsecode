@@ -10,7 +10,7 @@ import jsfiddle from '../assets/images/jsfiddle.png'
 
 const Footer = () => {
     const Footer=styled.div`
-        padding:50px 0px;
+        padding:30px 0px;
         background-color:${({theme})=>theme.colors.color1};
         display:flex;
         flex-direction:column;
@@ -24,7 +24,8 @@ const Footer = () => {
             font-weight: 200;
         }
         p{
-          color: #bdbdbd;
+          
+          color: rgb(219 219 219);
           font-size: 20px;
         }
         .learn_container{
@@ -47,13 +48,14 @@ const Footer = () => {
 
   return (
     <Footer>
-        <h1>Made with <FavoriteIcon style={{color:"red"}}/> by Ani Kapse</h1>
         <p><i>You can explore an example here...</i></p>
         <div className='learn_container'>
           <a href="https://codepen.io/anilkapse1" target="_blank"><img src={codepen} alt="codepen"/></a>
           <a href="https://codesandbox.io/u/anilkapse1" target="_blank"><img src={codesandbox} alt="codesandbox"/></a>
           <a href="https://jsfiddle.net/user/kapsecode/" target="_blank"><img src={jsfiddle} alt="jsfiddle"/></a>
         </div>
+        {/* <h1>Made with <FavoriteIcon style={{color:"pink"}}/> by Ani Kapse</h1> */}
+        <h1><i>Thank you for visit!</i></h1>
 
     </Footer>
   )
