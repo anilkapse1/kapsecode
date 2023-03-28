@@ -288,6 +288,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             }
             h1{
                 margin-bottom:15px;
+                font-weight:300;
 
             }
             h4{
