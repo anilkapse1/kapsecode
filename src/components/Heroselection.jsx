@@ -17,7 +17,7 @@ const Heroselection = () => {
     `
 
     const [theme, setTheme] = useState({
-        themeName:''
+        themeName:'theme1'
     })
 
     const changeTheme=(event)=>{
