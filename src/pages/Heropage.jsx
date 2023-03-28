@@ -10,6 +10,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import CodeIcon from '@mui/icons-material/Code';
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import Typewriter from "typewriter-effect";
+import plus from '../assets/images/plus.png'
+import bg from '../assets/images/right-bg.png'
 
 
 
@@ -72,10 +74,11 @@ const Heropage = () => {
 
                     p{
                         font-size: 1.2vw;
-                        background-color: rgb(217 210 235 / 40%);
-                        backdrop-filter: blur(5px);
                         font-weight: 400;
                         line-height: 2;
+                        background: url(${plus}); 
+                        background-size: contain;
+                        padding: 20px;
                     }
                 }
             }
@@ -147,7 +150,7 @@ const Heropage = () => {
                         <img src={userlogo} alt="user logo"/>
                     </div>
                     <div className='user_details items'>
-                        <h2>who am I ?
+                        <h2>Who am I ?
                         <Stack direction="row" style={{display:'inline-block'} }alignItems="center" spacing={.5}>
                         <a href="https://www.linkedin.com/in/anil-kapse/" target="_blank">
                             <IconButton style={{color:'#695AA6'}} aria-label="delete" size="large">
