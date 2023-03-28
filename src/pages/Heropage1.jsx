@@ -34,6 +34,7 @@ const Heropage1 = () => {
             }
             h1{
                 margin-bottom:15px;
+                font-weight:300;
 
             }
             h4{
