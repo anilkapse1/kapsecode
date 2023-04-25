@@ -45,16 +45,12 @@ const Header = () => {
                         border:1px solid white;
                         font-weight: 400;
                         &:hover{
-                            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-                            border:1px solid white;
-                            border-radius:5px;
+                            border-bottom:1px solid rgb(105, 90, 166);
                             color:${({theme})=>theme.colors.color1};
 
                         }
                         &.active{
-                            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-                            border-radius:5px;
-                            border:1px solid transparent;
+                            border-bottom:1px solid rgb(105, 90, 166);
                             color:${({theme})=>theme.colors.color1};
 
                         }

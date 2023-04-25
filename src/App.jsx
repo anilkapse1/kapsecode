@@ -20,7 +20,8 @@ const App = () => {
       white:'white',
       black:'black',
       color1:'#695AA6',
-      color2:'#463d3d;'
+      color2:'#463d3d;',
+      color3:'#B960A5'
     }
 
   }

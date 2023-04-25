@@ -11,13 +11,15 @@ import jsfiddle from '../assets/images/jsfiddle.png'
 const Footer = () => {
     const Footer=styled.div`
         padding:30px 0px;
-        background-color:${({theme})=>theme.colors.color1};
+        background-color:${({theme})=>theme.colors.color3};
         display:flex;
         flex-direction:column;
         flex-wrap:wrap;
         align-content:center;
         justify-content:center;
         text-align:center;
+        height: 400px;
+    justify-content: space-evenly;
         h1{
             color:${({theme})=>theme.colors.white};
             letter-spacing: 2px;

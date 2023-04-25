@@ -64,7 +64,7 @@ const Heropage1 = () => {
                 width:70%;
                 margin-bottom:20px;
                 img{
-    
+                    object-fit:contain;
                 }
             }
             button{
