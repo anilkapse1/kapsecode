@@ -97,7 +97,7 @@ const Me = () => {
 
                 }
                 p{
-
+                    font-size:1.5vw;
                 }
             }
           }
