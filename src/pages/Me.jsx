@@ -108,7 +108,7 @@ const Me = () => {
   return (
     <Mecontainer>
       <p>
-        I am happy to share details about my education, work and certification{" "}
+        Resume: Anil R Kapse
       </p>
       <div className="me_section">
         <div className="resume_section">
