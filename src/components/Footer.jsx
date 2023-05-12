@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
-import codepen from '../assets/images/codepen.png'
+import codepen from '../assets/images/codepen1.png'
 import codesandbox from '../assets/images/codesandbox.png'
 import jsfiddle from '../assets/images/jsfiddle.png'
 
@@ -39,7 +39,7 @@ const Footer = () => {
           img{
             width: 50px;
             height:50px;
-            background-color: black;
+
             border-radius: 50%;
             padding:5px;
             }

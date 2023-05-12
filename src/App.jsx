@@ -11,6 +11,7 @@ import Mernwork from './pages/Mernwork'
 import Portfolio from './pages/Portfolio'
 import Reactwork from './pages/Reactwork'
 import Websitework from './pages/Websitework'
+import Me from './pages/Me'
 
 
 
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="javascript" element={<Javascriptwork/>}></Route>
           <Route path="mern" element={<Mernwork/>}></Route>
           <Route path="certification" element={<Certification/>}/>
+          <Route path="aboutme" element={<Me/>}/>
         </Route>
       </Routes>
 

@@ -81,6 +81,7 @@ const Header = () => {
                 <li><NavLink to="javascript">JavaScript</NavLink></li>
                 <li><NavLink to="mern">MERN Stack</NavLink></li>
                 <li><NavLink to="certification">Certification</NavLink></li>
+                <li><NavLink to="aboutme">Me</NavLink></li>
             </ul>
         </nav>
     </Menu>
